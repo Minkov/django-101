@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+{{ superhero.name }}
+{{ superhero.secret_identity }}
+</div>
+
+<ul>
+    {% for power in superhero.powers.all %}
+        <li>
+            {{ power.name }}
+        </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

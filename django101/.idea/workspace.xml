@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2c8ce5-9abf-4e1c-aa1b-6539b10875f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django101/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django101/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django101/views/superheroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/django101/views/superheroes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/superheroes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/superheroes.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,6 +85,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -136,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575447683936</updated>
-      <workItem from="1575447684971" duration="2109000" />
+      <workItem from="1575447684971" duration="6831000" />
     </task>
     <servers />
   </component>

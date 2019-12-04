@@ -16,10 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 import django101.views.index as index
-import django101.views.superheroes as superheroes
+from django101.views.superheroes import SuperheroesListView, SuperheroFormView, SuperheroDetailsView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index.IndexView.as_view()),
-    path('superheroes', superheroes.SuperheroesListView.as_view())
+    path('superhero/create', SuperheroFormView.as_view(), name='create superhero'),
+    path('superhero/<int:pk>', SuperheroDetailsView.as_view(), name="superhero details"),
+    path('superheroes', SuperheroesListView.as_view()),
 ]
