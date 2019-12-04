@@ -1,0 +1,10 @@
+<ul>
+    {% for superhero in superhero_list %}
+        <li>
+            {{ superhero.name }} ({{ superhero.secret_identity }})
+            <a href="#">
+                view details
+            </a>
+        </li>
+    {% endfor %}
+</ul>
